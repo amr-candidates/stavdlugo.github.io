@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <meta charset="UTF-8">
     <title>Serrat</title>
 
-
 </head>
 <body>
+    <div id="nav"></div>
 
+    <main>
+        <h2>Joan Manuel Serrat</h2>
+
+        <figure>
+            <img src="resorces/images/Joan-Manuel-Serrat.jpg">
+        </figure>
+
+        <blockquote>
+            <p><cite>“The great enemy that our society has is fear, the fear of losing what we don’t even have,
+                      those things that are within our grasp but which we can’t seem to get hold of”</cite></p>
+            <p><cite>-Joan Manuel Serrat-</cite></p>
+        </blockquote>
+
+        <h4>Description:</h4>
+        <p>
+            Joan Manuel Serrat is a Spanish musician, singer-songwriter, recording artist, and performer.
+            He is considered one of the most important figures of modern, popular music in both the Spanish and Catalan
+            languages.
+        </p>
+    </main>
+
+    <div id="footer"></div>
 </body>
+<script>
+    $(function(){
+        $("#nav").load("components/nav.html");
+        $("#footer").load("components/footer.html");
+    });
+</script>
 </html>
