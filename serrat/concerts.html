@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta charset="UTF-8">
+    <title>Serrat</title>
+</head>
+<body>
+    <div id="nav"></div>
+
+    <main>
+        <article>
+            <section>
+                <p>Price: 91€, <strong>SOLD OUT</strong></p>
+                <p>Date: 13/08</p>
+                <p>Location: Madrid, Spain</p>
+            </section>
+            <section>
+                <p>Price: 83€, <strong>SOLD OUT</strong></p>
+                <p>Date: 19/08</p>
+                <p>Location: Barcelona, Spain</p>
+            </section>
+            <section>
+                <p>Price: 72€, <a href="">Buy tickets</a></p>
+                <p>Date: 25/07</p>
+                <p>Location: Seville, Spain</p>
+            </section>
+            <section>
+                <p>Price: 50€, <a href="">Buy tickets</a></p>
+                <p>Date: 03/08</p>
+                <p>Location: Valencia, Spain</p>
+            </section>
+            <section>
+                <p>Price: 67€, <a href="">Buy tickets</a></p>
+                <p>Date: 10/08</p>
+                <p>Location: San sebastian, Spain</p>
+            </section>
+        </article>
+    </main>
+
+    <div id="footer"></div>
+</body>
+<script>
+    $(function(){
+        $("#nav").load("components/nav.html");
+        $("#footer").load("components/footer.html");
+    });
+</script>
+</html>
