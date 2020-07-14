@@ -55,9 +55,10 @@
         $("#footer").load("components/footer.html");
     });
     $(function(){
-        $('a').each(function(){
+        $('.navigation li a').each(function(){
             if ($(this).prop('href') == window.location.href) {
-                $(this).addClass('selected'); $(this).parents('li').addClass('selected');
+                $(this).addClass('active');
+                $(this).parents('li').addClass('active');
             }
         });
     });
