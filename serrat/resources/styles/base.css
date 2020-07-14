@@ -18,6 +18,6 @@ nav ul li {
     display: inline;
     padding: 10px 40px;
 }
-nav a:active{
+ul.navigation li a.on{
     background-color: blue;
 }

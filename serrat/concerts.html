@@ -52,13 +52,5 @@
         $("#nav").load("components/nav.html");
         $("#footer").load("components/footer.html");
     });
-    $(function(){
-        $('.navigation li a').each(function(){
-            if ($(this).prop('href') == window.location.href) {
-                $(this).addClass('active');
-                $(this).parents('li').addClass('active');
-            }
-        });
-    });
 </script>
 </html>
