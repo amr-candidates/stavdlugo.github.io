@@ -3,23 +3,25 @@
 <head>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="resources/styles/base.css">
+    <link rel="stylesheet" type="text/css" href="resources/styles/contact.css">
     <title>Serrat</title>
 </head>
 <body>
     <nav id="nav"></nav>
 
     <form>
-        <label for="first_name">First name:</label>
-        <input type="text" id="first_name" name="first_name" required>
-        <label for="last_name">Last name:</label>
-        <input type="text" id="last_name" name="last_name" required>
-        <label for="birthday">Birthday:</label>
-        <input type="date" id="birthday" name="birthday" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="phone">Phone number:</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" required>
-        <input type="submit" value="Submit">
+        <label for="first_name" class="stack">First name:</label>
+        <input type="text" id="first_name" name="first_name" class="stack" required>
+        <label for="last_name" class="stack">Last name:</label>
+        <input type="text" id="last_name" name="last_name" class="stack" required>
+        <label for="birthday" class="stack">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" class="stack" required>
+        <label for="email" class="stack">Email:</label>
+        <input type="email" id="email" name="email" class="stack" required>
+        <label for="phone" class="stack">Phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" class="stack" required>
+        <input type="submit" class="stack" value="Submit">
     </form>
 
     <footer id="footer"></footer>

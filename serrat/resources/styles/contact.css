@@ -1,0 +1,7 @@
+.stack {
+    display: block;
+    margin: auto;
+    font-family: "Lucida Console", Courier, monospace;
+    color: brown;
+    text-align: center;
+}
