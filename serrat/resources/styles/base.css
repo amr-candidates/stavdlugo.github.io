@@ -16,6 +16,7 @@ a:hover {
 }
 nav ul li {
     display: inline;
+    padding: 10px 40px;
 }
 nav a:active{
     background-color: blue;
