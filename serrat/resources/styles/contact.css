@@ -1,9 +1,7 @@
-body {
-    text-align: center;
-}
-body > * {
-    text-align: left;
-}
-input {
+.stack {
     display: block;
+    margin: auto;
+    font-family: "Lucida Console", Courier, monospace;
+    color: brown;
+    text-align: center;
 }

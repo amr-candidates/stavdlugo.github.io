@@ -54,9 +54,12 @@
         $("#nav").load("components/nav.html");
         $("#footer").load("components/footer.html");
     });
-    $("a").click(function(){
-        $("a").removeClass("active");
-        $(this).addClass("active");
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+            }
+        });
     });
 </script>
 </html>
