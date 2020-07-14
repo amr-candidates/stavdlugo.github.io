@@ -7,6 +7,9 @@ a:link {
 a:visited {
     color: black;
 }
+nav a:active, li.selected {
+    color: blue;
+}
 footer {
     text-align: center;
     padding-top: 2em;
@@ -14,6 +17,6 @@ footer {
 a:hover {
     color: red;
 }
-.active{
-    background-color: blue;
+nav ul li {
+    display: inline;
 }
