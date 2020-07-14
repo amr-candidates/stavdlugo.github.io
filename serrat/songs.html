@@ -54,5 +54,9 @@
         $("#nav").load("components/nav.html");
         $("#footer").load("components/footer.html");
     });
+    $("a").click(function(){
+        $("a").removeClass("active");
+        $(this).addClass("active");
+    });
 </script>
 </html>
