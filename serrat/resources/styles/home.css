@@ -1,0 +1,9 @@
+blockquote {
+    font-family: Georgia, Serif;
+    font-style: italic;
+}
+#image {
+    padding-top: 21.8%;
+    width: 29vw;
+    background-image: url("../images/Joan-Manuel-Serrat.jpg");
+}

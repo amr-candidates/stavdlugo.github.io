@@ -1,6 +1,23 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <nav>
-    <a href="home.html">Home</a>
-    <a href="songs.html">Songs</a>
-    <a href="concerts.html">Upcoming concerts</a>
-    <a href="contact.html">Contact the artist</a>
+    <ul class="navigation">
+        <li><i class="fa fa-home"></i><a href="home.html">Home</a></li>
+        <li><i class="fa fa-music"></i><a href="songs.html">Songs</a></li>
+        <li><i class="fa fa-ticket"></i><a href="concerts.html">Upcoming concerts</a></li>
+        <li><i class="fa fa-envelope-o"></i><a href="contact.html">Contact the artist</a></li>
+    </ul>
 </nav>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(function(){
+        $('.navigation li a').each(function(){
+            if (($(this).prop('href') == window.location.href) || ($(this).prop('href') == '')) {
+                $(this).addClass('on');
+            } else {
+                $(this).removeClass('on');
+            }
+        });
+    });
+</script>
